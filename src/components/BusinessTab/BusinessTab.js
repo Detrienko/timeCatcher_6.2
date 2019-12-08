@@ -12,36 +12,9 @@ const BusinessTab = (props) => {
 		props.switchBusinessTab(currentId);
 	}
 
-	// const showRemovePopUp = () => {
-
-	// 	document.getElementById('popUpContainer').style.display="block";
-	// 	document.getElementById('cover').style.display="block";
-
-	// }
-
-	// const hideRemovePopUp = () => {
-	// 	document.getElementById('popUpContainer').style.display="none";
-	// 	document.getElementById('cover').style.display="none";
-	// }
-
-	// const deleteBusiness = () => {
-
-	// 	props.deleteBusiness(props.business.id)
-	// 	hideRemovePopUp();
-	// }
-
 	const editBusinss = ()=>{
 		alert('nothing')
 	}
-
-	// let popUpMessage = (
-	// 		<div id="popUpContainer" className={classes.popUpContainer}>
-	// 			<p className={classes.popUpContainer_message}>Are you sure you want to delete this business?</p>
-	// 			<button onClick={deleteBusiness} className={classes.yesBtn}>YES</button>
-	// 			<button onClick={hideRemovePopUp} className={classes.noBtn}>NO</button>
-	// 			<a onClick={hideRemovePopUp} href="#" className={classes.close}/>
-	// 		</div>
-	// 	)
 
 	let selectedTabLine = null;
 
